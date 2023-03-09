@@ -9,7 +9,7 @@ class Neuron:
     def __init__(self, id_ne):
         self.last_indu = None
         self.id_ne = id_ne
-        self.__count_learn = 0  # after 5 iter going to delay
+        self.__count_learn = 0  # after 10 iter going to delay
         self.__delay = (-1) * self.THRESHOLD
         self.canLearning = True
 
